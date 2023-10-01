@@ -2,7 +2,7 @@
 
 int max_of_three(int a, int b, int c){
     int max1, max2;
-    // in this case I'm using ternary operator.
+    // In this case I'm using ternary conditional operator.
     // It looks like this:
     // (condition) ? (return if condition true) : (return if condition false)
     max1 = (a >= b) ? a : b;  // max fo a and b
