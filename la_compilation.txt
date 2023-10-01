@@ -1,7 +1,0 @@
-Etapes durant la compilation d'un programme C:
-1) Préprocession,
-2) Analyser lexical,
-3) Analyser syntaxique,
-4) Analyser sémantique,
-5) Génération de code,
-6) Édition de liens.
