@@ -1,8 +1,0 @@
-Le langage C est:
-- une langage impératif,
-- une langage typé statiquement,
-- une langage bas niveau,
-- une langage compilé.
-
-English version:
-// to do
