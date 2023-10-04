@@ -1,23 +1,4 @@
-#include <stdio.h>
-
 #define N 5  // anytime we can change it
-
-int pgcd(int a, int b);
-
-void premiers_entre_eux(int t[N][N]);
-
-
-int main(void){
-    int tab[5][5] = {{1, 2, 3, 4, 5},
-                    {6, 7, 8, 9, 10},
-                    {11, 12, 13, 14, 15},
-                    {16, 17, 18, 19, 20},
-                    {21, 22, 23, 24, 25}};
-
-    premiers_entre_eux(tab);
-    return 0;
-}
-
 
 int pgcd(int a, int b)
 {
@@ -42,4 +23,7 @@ void premiers_entre_eux(int t[][N]){
             else t[i][j] = 0;
         }
     }
+}
+int main(void){
+    return 0;
 }
