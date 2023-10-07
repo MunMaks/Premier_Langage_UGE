@@ -1,3 +1,5 @@
+#include <stdio.h>
+// without using string, atoi, strtol
 int valid_integer(char ch){
     int res = (ch >= '0' && ch <= '9') ? 1 : 0 ;
     return res;  // si char est entre '0' est '9' donc c'est un nombre
