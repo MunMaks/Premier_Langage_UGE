@@ -1,5 +1,5 @@
 #include<stdio.h>
-// lenght of string without strlen() from #include <string.h> 
+// length of string without strlen() from #include <string.h> 
 int string_length(char* s){
     int i = 0;
     while (s[i] != '\0') i++;
