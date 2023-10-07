@@ -1,4 +1,5 @@
 #include <stdio.h>
+// without using strlen() from #include <string.h> 
 int len (char word[]){  // returns lenght of the string (array of character)
     int i = 0;
     while (word[i]) { ++i; }
