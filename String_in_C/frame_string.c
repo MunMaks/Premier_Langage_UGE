@@ -11,12 +11,12 @@ void frame_string(char *chaine){
     * word *
     ********
     */
-    int lenght = 0;
-    while(chaine[lenght] != '\0'){ ++lenght; }
-    if (!(lenght)) return;  // if len == 0
+    int length = 0;
+    while(chaine[length] != '\0'){ ++length; }
+    if (!(length)) return;  // if len == 0
 
-    encadree(lenght);
+    encadree(length);
     printf("# %s #\n", chaine);
-    encadree(lenght);
+    encadree(length);
 
 }
