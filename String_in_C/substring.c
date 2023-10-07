@@ -1,12 +1,12 @@
 #include <stdio.h>
-int lenght(char *word){
+int length(char *word){
     int i = 0;
     while(word[i] != '\0') ++i;
     return i;
 }
 
 int substring(char* big, char* sub) {
-    int len = lenght(sub);  // la longeur de substring
+    int len = length(sub);  // la longeur de substring
     int count = 0;  // si on a (len == count) donc on a trouve notre substring dans big
 
     for (int i = 0; big[i] != '\0'; ++i){
@@ -20,7 +20,7 @@ int substring(char* big, char* sub) {
                     break; 
                 }
             }
-            // we lenght of substring and total appearance are equal, we found it.
+            // we length of substring and total appearance are equal, we found it.
             if (len == count) { return 1; } 
         }
     }
