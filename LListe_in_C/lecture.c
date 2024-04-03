@@ -1,6 +1,8 @@
 /*
-Affiche liste
-Ecrire une fonction affiche qui affiche, sur une seule ligne, les éléments d'une liste chainée passée en parametre.
+Écrire une fonction lire qui lit les éléments successifs d'une liste chainée donnée en entrée au clavier.
+La liste à remplir est passée en paramètre et supposée NULL à l'appel.
+La saisie s'arrête lorsque l'utilisateur n'entre rien avant le return.
+
 On utilisera les types:
 typedef struct cel{  
     int val;  
